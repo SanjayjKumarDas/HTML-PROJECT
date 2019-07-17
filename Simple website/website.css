@@ -1,0 +1,100 @@
+*
+{
+	margin: 0;
+}
+
+#header
+{
+	height: 100px;
+	width: 100%;
+}
+
+#header ul
+{
+	list-style-type: none;
+	margin-left: 900px;
+	margin-top: 20px;
+}
+
+#header li
+{
+	float: left;
+	padding: 15px;
+	text-align: center;
+}
+
+#header a
+{
+	text-decoration: none;
+}
+
+#main
+{
+	height: 400px;
+	width: 600px;
+	background-color: #ebebe0;
+	margin-left: 100px;
+	text-align: center;
+	margin-bottom: 100px;
+	border-style: dashed;
+	border-radius: 15px;
+}
+
+#main h1
+{
+    font-size: 50px;
+    padding-top: 25px;
+}
+
+#main h3
+{
+	padding-top: 10px;
+	padding-bottom: 3px;
+}
+#main input
+{
+	border-radius: 8px;
+}
+#main button
+{
+	height: 40px;
+	width: 108px;
+	margin: 10px;
+	border-radius: 12px;
+	color: green;
+	background-color: #33ff33;
+}
+
+#footer
+{
+	height: 100px;
+	width: 100%;
+	background-color: #d1e0e0;
+}
+.fa {
+  padding: 5px;
+  font-size: 15px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.5;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #a3a3c2;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
