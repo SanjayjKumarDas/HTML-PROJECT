@@ -1,6 +1,6 @@
 
 
-;( function( $, window, undefined ) {
+( function( $, window, undefined ) {
 	
 	'use strict';
 
@@ -213,7 +213,7 @@
 
 				return false;
 
-			};
+			}
 
 			// suport for css 3d transforms and css transitions
 			this.support = Modernizr.csstransitions && Modernizr.csstransforms3d;
@@ -475,7 +475,7 @@
 					current : this.current,
 					o : orientation
 				} ),
-				self = this;
+			
 
 			this.$box = $('<div>').addClass( 'sb-perspective' ).css( boxStyle ).appendTo( this.$el );
 
@@ -748,7 +748,7 @@
 				case 3 : sideIdx = 1; break;
 				case 4 : sideIdx = ( this.config.o === 'v' ) ? 5 : 3; break;
 
-			};
+			}
 
 			imgParam.backgroundPosition = ( this.config.o === 'v' ) ? - ( this.pos * this.size.width ) + 'px 0px' : '0px -' + ( this.pos * this.size.height ) + 'px';
 			this.$el.children().eq( sideIdx ).css( imgParam );
@@ -767,7 +767,7 @@
 						case 2 : animationStyle = self.animationStyles.side3; self.side = 3; break;
 						case 3 : animationStyle = self.animationStyles.side4; self.side = 4; break;
 						case 4 : animationStyle = self.animationStyles.side1; self.side = 1; break;
-					};
+					}
 				
 				}
 				else {
@@ -777,7 +777,7 @@
 						case 2 : animationStyle = self.animationStyles.side1; self.side = 1; break;
 						case 3 : animationStyle = self.animationStyles.side2; self.side = 2; break;
 						case 4 : animationStyle = self.animationStyles.side3; self.side = 3; break;
-					};
+					}
 
 				}
 				
